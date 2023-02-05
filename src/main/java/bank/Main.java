@@ -19,11 +19,7 @@ public class Main {
         });
 
         dan.start();
-        try {
-            dan.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         jane.start();
+
     }
 }
